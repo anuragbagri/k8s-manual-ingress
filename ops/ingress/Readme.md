@@ -6,4 +6,7 @@
 # steps
 
 - install the nginx ingress-controller
+  -- install with manifests
+  apply this kubectl apply -f https://raw.githubusercontent.com/nginx/kubernetes-ingress/v5.0.0/deploy/crds.yaml
+  this will install the nginx-ingress-controller and the loadbalancer service along with it
 - create an ingress.yml file
